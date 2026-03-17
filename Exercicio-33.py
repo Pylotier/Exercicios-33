@@ -8,6 +8,7 @@ montante: int = 0
 n = int(input("Digite o número para o cálculo em série: "))
 
 for i in range(2, n+1, 1):
+    print(1, "/", i)
     montante += 1/i
 res = 1 + montante
 print("Resultado do cálculo:", res)
